@@ -1,4 +1,4 @@
-# Next.js PWA & Electron Boilerplate
+# Next.js & Electron Boilerplate
 
 This repository provides a boilerplate project for building desktop applications using Next.js and Electron. This setup combines the power of React with the versatility of Electron, allowing you to create high-performance, cross-platform desktop apps with ease.
 
