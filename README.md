@@ -1,6 +1,4 @@
-
-
-# Next.js & Electron Boilerplate
+# Next.js PWA & Electron Boilerplate
 
 This repository provides a boilerplate project for building desktop applications using Next.js and Electron. This setup combines the power of React with the versatility of Electron, allowing you to create high-performance, cross-platform desktop apps with ease.
 
@@ -25,50 +23,50 @@ Ensure you have the following installed:
 
 1. **Clone the repository:**
 
-    ```bash
-    git clone https://github.com/Software-Magicians/nextjs-electron.git
-    cd nextjs-electron
-    ```
+   ```bash
+   git clone https://github.com/Software-Magicians/nextjs-electron.git
+   cd nextjs-electron
+   ```
 
 2. **Install dependencies:**
 
-    ```bash
-    npm install
-    ```
+   ```bash
+   npm install
+   ```
 
-    or
+   or
 
-    ```bash
-    yarn install
-    ```
+   ```bash
+   yarn install
+   ```
 
 ### Running the Application
 
 1. **Start Next.js development server:**
 
-    ```bash
-    npm run dev
-    ```
+   ```bash
+   npm run dev
+   ```
 
-    or
+   or
 
-    ```bash
-    yarn dev
-    ```
+   ```bash
+   yarn dev
+   ```
 
 2. **Start Electron:**
 
-    In a separate terminal, run:
+   In a separate terminal, run:
 
-    ```bash
-    npm run electron
-    ```
+   ```bash
+   npm run electron
+   ```
 
-    or
+   or
 
-    ```bash
-    yarn electron
-    ```
+   ```bash
+   yarn electron
+   ```
 
 ### Building for Production
 
