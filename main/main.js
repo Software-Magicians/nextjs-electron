@@ -16,7 +16,6 @@ const createWindow = () => {
   mainWindow.loadURL("http://localhost:3000");
 };
 app.on("ready", () => {
-  require("../server");
   createWindow();
 });
 app.on("window-all-closed", () => {
