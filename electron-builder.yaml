@@ -1,0 +1,26 @@
+appId: "swm.electron.app"
+productName: "SWM Electron App"
+copyright: "Copyright (c) 2024 Software Magicians"
+asar: true
+asarUnpack: "**\\*.{node,dll}"
+win:
+  target: nsis
+  icon: "resources/icon.ico"
+linux:
+  target: appimage
+  icon: "resources/icon.png"
+mac:
+  target:
+    target: default
+    arch:
+      - arm64
+      - x64
+  type: distribution
+compression: maximum
+extraFiles:
+  - from: .env
+    to: ./
+    filter:
+      - "**/*"
+extraMetadata:
+  name: "SWM Electron App"
