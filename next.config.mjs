@@ -1,9 +1,9 @@
 /** @type {import('next').NextConfig} */
 
-import withPWA from "next-pwa";
+// import withPWA from "next-pwa";
 
-const isProduction = process.env.NODE_ENV === "production";
-const isDevelopment = true;
+// const isProduction = process.env.NODE_ENV === "production";
+// const isDevelopment = true;
 
 const securityHeaders = [
   {
@@ -60,11 +60,11 @@ const globalConfig = {
   },
 };
 
-const provideConfig = withPWA({
-  disable: isDevelopment,
-  dest: "public",
-  register: true,
-  buildExcludes: [/app-build-manifest.json$/],
-})(globalConfig);
+// const provideConfig = withPWA({
+//   disable: isDevelopment,
+//   dest: "public",
+//   register: true,
+//   buildExcludes: [/app-build-manifest.json$/],
+// })(globalConfig);
 
-export default provideConfig;
+export default globalConfig;
